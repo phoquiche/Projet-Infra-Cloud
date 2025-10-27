@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lambda
+lambda/*/node_modules/
+lambda/*/.npm/
+lambda/*/package-lock.json
+
+# General
+.DS_Store
+*.log
+*.tmp
+.env
+.vscode/
+.idea/
